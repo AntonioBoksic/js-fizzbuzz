@@ -1,10 +1,9 @@
-
-// const container = document.getElementById("container");
-
-// console.log(container)
-let text;
+// seleziono il contenitore
+const container = document.getElementById("container");
 
 
+// creo un ciclo con all'interno if/else 
+// per poter assegnare un contenuto a ogni elemento
 for (let i=1; i<=100; i++) {
 
     // console.log(i)
@@ -25,7 +24,8 @@ for (let i=1; i<=100; i++) {
 
     console.log(text)
 
-    // container.innerHTML += quadrato;
+    const quadrato = `<span class=square"text</span>`;
+    container.innerHTML += quadrato;
 
- }
+}
  
