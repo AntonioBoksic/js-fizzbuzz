@@ -9,8 +9,8 @@
     flex-wrap: wrap;
 }
 
-#container .square {
-    background-color: blue;
+.square {
+    background-color: lightgrey;
     width: calc(10% - 10px);
     height: 50px;
     padding: 5px;
@@ -22,11 +22,11 @@
 }
 
 .fizz {
-    background-color: brown;
+    background-color: lightcoral;
 }
 
 .buzz {
-    background-color: blueviolet;
+    background-color: lightgreen;
 }
 
 .fizzbuzz {
